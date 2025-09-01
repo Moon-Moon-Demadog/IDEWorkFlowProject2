@@ -5,13 +5,13 @@
 using namespace std;
 int main()
 {
-	char first, middle, last;
-	// I'm storing my respictive initials in these variables.
-	first = 'L';
-	middle = 'M';
-	last = 'W';
-	cout << first << middle << last;
+	string name, address, phoneNumber;
+	// Storing my information in these variables
+	name = "Lynn Weiland";
+	address = "123 Main St";
+	phoneNumber = "757-123-4567";
+	cout << name << endl;
+	cout << address << endl;
+	cout << phoneNumber << endl;
 	return 0;
-	// typing this to test pushing comments.
-
-}
+} 
